@@ -798,7 +798,7 @@
         </Property>
       </Properties>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton1.addActionListener(new ActionListener() {&#xa; &#xa;            public void actionPerformed(ActionEvent e)&#xa;            {&#xa;                &#xa;                OS.cpu();&#xa;                OS.OSgui.refreshRegisterFields();&#xa;                System.out.println(&quot;&#x12e;VYKO&quot;);&#xa;&#xa;            }&#xa;        });"/>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton1.addActionListener(new ActionListener() {&#xa; &#xa;            public void actionPerformed(ActionEvent e)&#xa;            {&#xa;                &#xa;                //OS.cpu();&#xa;                //OS.OSgui.refreshRegisterFields();&#xa;                //System.out.println(&quot;&#x12e;VYKO&quot;);&#xa;&#xa;            }&#xa;        });"/>
       </AuxValues>
     </Component>
     <Container class="javax.swing.JPanel" name="jPanel4">

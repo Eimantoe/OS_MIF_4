@@ -590,9 +590,9 @@ public class GUI extends javax.swing.JFrame {
             public void actionPerformed(ActionEvent e)
             {
 
-                OS.cpu();
-                OS.OSgui.refreshRegisterFields();
-                System.out.println("ĮVYKO");
+                //OS.cpu();
+                //OS.OSgui.refreshRegisterFields();
+                //System.out.println("ĮVYKO");
 
             }
         });
