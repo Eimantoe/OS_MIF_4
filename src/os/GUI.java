@@ -37,7 +37,8 @@ public class GUI extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
         bindingGroup = new org.jdesktop.beansbinding.BindingGroup();
 
         textArea1 = new java.awt.TextArea();
@@ -130,7 +131,8 @@ public class GUI extends javax.swing.JFrame {
         Display = new javax.swing.JTextArea();
         jButton2 = new javax.swing.JButton();
 
-        jList2.setModel(new javax.swing.AbstractListModel<String>() {
+        jList2.setModel(new javax.swing.AbstractListModel<String>()
+        {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
@@ -585,18 +587,20 @@ public class GUI extends javax.swing.JFrame {
                         .addComponent(jScrollPane7))))
         );
 
-        jButton1.addActionListener(new ActionListener() {
+        jButton1.addActionListener(new ActionListener()
+        {
 
             public void actionPerformed(ActionEvent e)
             {
 
-                OS.cpu();
-                OS.OSgui.refreshRegisterFields();
-                System.out.println("ĮVYKO");
+                //OS.cpu();
+                //OS.OSgui.refreshRegisterFields();
+                //System.out.println("ĮVYKO");
 
             }
         });
-        jButton2.addActionListener(new ActionListener() {
+        jButton2.addActionListener(new ActionListener()
+        {
 
             public void actionPerformed(ActionEvent e)
             {
